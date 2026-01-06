@@ -468,10 +468,17 @@ st.markdown("""
 @st.cache_data
 def cargar_datos_alertas():
     """Carga datos de alertas"""
+    # Intentar cargar archivo completo primero
     filepath = Path(__file__).parent.parent / 'data' / 'processed' / 'dengue_alertas.csv'
+    
+    # Si no existe, usar archivo de ejemplo
+    if not filepath.exists():
+        filepath = Path(__file__).parent.parent / 'data' / 'processed' / 'dengue_alertas_sample.csv'
+    
     df = pd.read_csv(filepath)
     df['fecha'] = pd.to_datetime(df['fecha'])
     return df
+
 
 @st.cache_data
 def cargar_reporte_alertas():
