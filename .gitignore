@@ -84,6 +84,10 @@ data/processed/*.xlsx
 data/processed/*.json
 data/processed/*.parquet
 
+# Permitir archivos de ejemplo y predicciones
+!data/processed/*_sample.csv
+!data/processed/predictions/
+
 # Datos externos
 data/external/*.csv
 data/external/*.xlsx
