@@ -121,8 +121,8 @@ reports/figures/*.svg
 # ============================================
 # Streamlit
 # ============================================
-.streamlit/
 .streamlit/secrets.toml
+
 
 # ============================================
 # Sistema Operativo
