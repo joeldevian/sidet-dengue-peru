@@ -1,0 +1,171 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Distribución / empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================
+# Entornos Virtuales
+# ============================================
+venv/
+ENV/
+env/
+.venv/
+virtualenv/
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+**/.ipynb_checkpoints/
+
+# ============================================
+# IDEs y Editores
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# Testing
+# ============================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.cover
+*.py,cover
+.hypothesis/
+
+# ============================================
+# Datos (archivos grandes)
+# ============================================
+# Datos crudos
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+data/raw/*.parquet
+
+# Datos procesados
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.json
+data/processed/*.parquet
+
+# Datos externos
+data/external/*.csv
+data/external/*.xlsx
+data/external/*.json
+data/external/*.parquet
+
+# Formatos de datos ML
+*.h5
+*.hdf5
+*.tfrecord
+
+# ============================================
+# Modelos Entrenados
+# ============================================
+*.pkl
+*.pickle
+*.joblib
+*.pb
+*.pth
+*.ckpt
+models/saved/*.pkl
+models/saved/*.h5
+models/saved/*.joblib
+models/saved/forecasting/
+
+# ============================================
+# Reportes y Visualizaciones
+# ============================================
+reports/pdfs/*.pdf
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.jpeg
+reports/figures/*.svg
+
+# ============================================
+# Streamlit
+# ============================================
+.streamlit/
+.streamlit/secrets.toml
+
+# ============================================
+# Sistema Operativo
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# Variables de Entorno y Configuración
+# ============================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+*.log.*
+
+# ============================================
+# Temporales
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
