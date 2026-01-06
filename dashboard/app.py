@@ -710,7 +710,7 @@ with tab1:
             plot_bgcolor='rgba(0,0,0,0)',
             paper_bgcolor='rgba(0,0,0,0)',
             font=dict(color='#f1f5f9', size=14, family='Poppins, sans-serif'),
-            title=dict(font=dict(color='#ffffff', size=16, weight=700))
+            title=dict(font=dict(color='#ffffff', size=16))
         )
         fig.update_traces(textposition='outside', textfont=dict(color='#ffffff', size=13))
         fig.update_xaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
@@ -740,7 +740,7 @@ with tab1:
             plot_bgcolor='rgba(0,0,0,0)',
             paper_bgcolor='rgba(0,0,0,0)',
             font=dict(color='#f1f5f9', size=14, family='Poppins, sans-serif'),
-            title=dict(font=dict(color='#ffffff', size=16, weight=700))
+            title=dict(font=dict(color='#ffffff', size=16))
         )
         fig.update_traces(textposition='outside', textfont=dict(color='#ffffff', size=13))
         fig.update_xaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
@@ -796,7 +796,7 @@ with tab2:
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',
         font=dict(color='#f1f5f9', size=14, family='Poppins, sans-serif'),
-        title_font=dict(color='#ffffff', size=18, weight=700)
+        title_font=dict(color='#ffffff', size=18)
     )
     fig.update_xaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
     fig.update_yaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
@@ -821,7 +821,7 @@ with tab2:
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',
         font=dict(color='#f1f5f9', size=14, family='Poppins, sans-serif'),
-        title_font=dict(color='#ffffff', size=16, weight=700)
+        title_font=dict(color='#ffffff', size=16)
     )
     fig.update_xaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
     fig.update_yaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
@@ -988,7 +988,7 @@ with tab5:
             plot_bgcolor='rgba(0,0,0,0)',
             paper_bgcolor='rgba(0,0,0,0)',
             font=dict(color='#f1f5f9', size=14, family='Poppins, sans-serif'),
-            title_font=dict(color='#ffffff', size=18, weight=700)
+            title_font=dict(color='#ffffff', size=18)
         )
         fig.update_xaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
         fig.update_yaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
@@ -1057,7 +1057,7 @@ with tab5:
                 plot_bgcolor='rgba(0,0,0,0)',
                 paper_bgcolor='rgba(0,0,0,0)',
                 font=dict(color='#f1f5f9', size=14, family='Poppins, sans-serif'),
-                title_font=dict(color='#ffffff', size=16, weight=700)
+                title_font=dict(color='#ffffff', size=16)
             )
             fig_comp.update_xaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
             fig_comp.update_yaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
@@ -1206,7 +1206,7 @@ with tab6:
                 plot_bgcolor='rgba(0,0,0,0)',
                 paper_bgcolor='rgba(0,0,0,0)',
                 font=dict(color='#f1f5f9', size=14, family='Poppins, sans-serif'),
-                title_font=dict(color='#ffffff', size=16, weight=700)
+                title_font=dict(color='#ffffff', size=16)
             )
             fig.update_xaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
             fig.update_yaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
@@ -1230,7 +1230,7 @@ with tab6:
             plot_bgcolor='rgba(0,0,0,0)',
             paper_bgcolor='rgba(0,0,0,0)',
             font=dict(color='#f1f5f9', size=14, family='Poppins, sans-serif'),
-            title_font=dict(color='#ffffff', size=16, weight=700)
+            title_font=dict(color='#ffffff', size=16)
         )
         fig.update_xaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
         fig.update_yaxes(gridcolor='rgba(255,255,255,0.15)', tickfont=dict(color='#f1f5f9', size=12))
